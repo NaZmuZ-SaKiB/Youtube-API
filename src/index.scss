@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 243, 243);
+}
+h1{
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 2rem;
+}
+
+/* Commons */
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.btn-primary{
+  background-color: rgb(48, 48, 48);
+  color: white;
+}

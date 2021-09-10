@@ -1,0 +1,29 @@
+.video-wrapper{
+    width: 70%;
+    margin: 0 auto 3rem auto;
+}
+.videoplayer-container{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+    z-index: 0;
+
+    & iframe{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.video-stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+    & p{
+        font-size: 1.5rem;
+    }
+}

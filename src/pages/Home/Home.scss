@@ -1,0 +1,12 @@
+.banner{
+    height: 500px;
+    background-size:contain;
+    background-position-x: center;
+    background-position-y: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    & img{
+        width: 100%;
+    }
+}
